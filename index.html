@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+	<title>
+		ICM Formulario
+	</title>
+
+
+</head>
+
+<body>
+	<h1>ICM Formulario</h1>
+
+
+	<form id="form">
+
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Nome
+			</label>
+
+			<input type="text"
+				id="name"
+				placeholder="digite seu nome" />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+
+			<input type="email"
+				id="email"
+				placeholder="Digite seu Email" />
+		</div>
+
+		<div class="form-control">
+			<label for="age" id="label-age">
+                Idade
+			</label>
+
+			<input type="text"
+				id="age"
+				placeholder="Digite sua Idade" />
+		</div>
+
+		<div class="form-control">
+			<label for="role" id="label-role">
+				Qual é a sua função?
+			</label>
+
+			<select name="role" id="role">
+				<option value="Instrumentista">Instrumentista</option>
+				<option value="Obreiro">Obreiro</option>
+                <option value="Grupo de Louvor">Grupo de Louvor</option>
+				<option value="Pastor">Pastor</option>
+				<option value="Outro">Outro</option>
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label>
+				Você já participou de algum outro ESF?
+			</label>
+
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">Sim</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">Não</input>
+			</label>
+			
+		</div>
+
+		<div class="form-control">
+			<label>Qual igreja você frequenta?
+				<small>(Escolhi uma)</small>
+			</label>
+
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">Conforto</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">Agua limpa</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">Retira</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">Vila Americana</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">Mangueira</input></label>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">Nove de Abril</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Pinheiral</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Arrozal</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Estamparia</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Ano Bom</input></label>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				Alguma sugestão?
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+				placeholder="Digite aqui">
+			</textarea>
+		</div>
+
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit">
+			Confirma
+		</button>
+	</form>
+</body>
+</html>
